@@ -38,7 +38,6 @@ let actu = 0;
 for (let i = 0; i < $btn.length; i++) {
 	$btn[i].addEventListener("click", () => {
 		changerbtn(i);
-		clearInterval(timerInterval);
 		interval();
 	});
 }
